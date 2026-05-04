@@ -1,0 +1,36 @@
+[
+    {
+        "name": "天扬哔哩登陆系统",
+        "list": [
+            {
+                "name": "登录哔哩",
+                "key": "setBilibiliCookie",
+                "icon": "",
+                "des": "设置cookie"
+            },
+            {
+                "name": "退出登录",
+                "key": "cleanBilibiliCookie",
+                "icon": "",
+                "des": "清除cookie"
+            }
+        ]
+    },
+    {
+        "name": "数据库",
+        "list": [
+            {
+                "name": "网络数据库映射配置",
+                "key": "networkDatabaseMapping",
+                "icon": "",
+                "des": "设置"
+            },
+            {
+                "name": "网络数据库",
+                "key": "networkDatabaseManagement",
+                "icon": "",
+                "des": "管理"
+            }
+        ]
+    }
+]
