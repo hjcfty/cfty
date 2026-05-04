@@ -1106,7 +1106,7 @@
             "key": "商店",
             "name": "💝天扬更新系统💝",
             "type": 3,
-            "hide": 1,
+            "hide": 0,
             "api": "csp_Market",
             "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
             "searchable": 0,
