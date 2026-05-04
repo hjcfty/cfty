@@ -1,0 +1,20 @@
+{
+    "站名": "短剧大全",
+    "主页url": "http://www.pljs.net/",
+    "分类url": "http://www.pljs.net/?p={catePg}&keyword={cateId}",
+    "分类": "日&久&见&真&心",
+    "数组": "p:div[class*=\"card\"]",
+    "标题": "p:div[class*=\"title\"]->text",
+    "副标题": "",
+    "图片": "p:img->src",
+    "链接": "p:a->href",
+    "简介": "请不要相信任何广告！！！祝您观影愉快！👉-+ %E7%8E%A9%E5%BD%92%E7%8E%A9%EF%BC%8C%E9%97%B9%E5%BD%92%E9%97%B9%EF%BC%8C%E5%88%AB%E6%90%9E%E4%B8%BE%E6%8A%A5%E6%81%B6%E5%BF%83%E4%BA%BA[工具:解url]",
+    "线路数组": "p:div[class=\"video-title\"]",
+    "线路标题": "p:->text",
+    "播放数组": "p:div[class*=\"episode-list\"]",
+    "播放列表": "p:.episode",
+    "播放标题": "p:div->text",
+    "播放链接": "p:div->data-src",
+    "搜索请求头": "User-Agent$MOBILE_UA",
+    "搜索url": "http://www.pljs.net/?p={pg}&keyword={wd}"
+}
