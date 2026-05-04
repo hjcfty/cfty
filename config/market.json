@@ -6,13 +6,13 @@
                 "name": "天扬影视手机版",
                 "url": "https://v6.gh-proxy.org/https://github.com/wqvbka654-dotcom/tyys/releases/latest/download/tyys.apk",
                 "icon": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/logo.png",
-                "version": "版本:5.1.6"
+                "version": "手机版:5.1.6"
             },
             {
                 "name": "天扬影视电视版",
                 "url": "https://v6.gh-proxy.org/https://github.com/wqvbka654-dotcom/tyystv/releases/latest/download/tyystv.apk",
                 "icon": "https://gh-proxy.org/https://raw.githubusercontent.com/wqvbka654-dotcom/vod/refs/heads/main/logo.png",
-                "version": "版本:5.1.6"
+                "version": "电视版:5.1.6"
             }
         ]
     }
