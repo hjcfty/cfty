@@ -92,6 +92,14 @@
             "switchable": 1
         },
         {
+            "key": "A36",
+            "name": "❤️天扬高清点播",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/高清点播.json",
+            "jar": "./jar/1118.jar"
+        },
+        {
             "key": "热播影",
             "name": "❤️热播影视",
             "type": 3,
