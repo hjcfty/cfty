@@ -813,6 +813,13 @@
             "ext": "./js/戏曲大全.js"
         },
         {
+            "key": "牙",
+            "name": "虎牙直播完美版",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/虎牙直播完美.js"
+        },
+        {
             "key": "drpy2_虎牙直播",
             "name": "虎牙直播",
             "type": 3,
