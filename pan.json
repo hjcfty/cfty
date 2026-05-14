@@ -245,7 +245,7 @@
         },
         {
             "key": "csp_SeedHub",
-            "name": "SeedHub",
+            "name": "🖤SeedHub",
             "type": 3,
             "api": "csp_SeedHub",
             "timeout": 60,
@@ -282,6 +282,21 @@
                 "sites": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
                 "proxy": "noproxy",
                 "classes": "./json/leijing.json"
+            }
+        },
+        {
+            "key": "csp_GuanYing",
+            "name": "🖤观影4K",
+            "type": 3,
+            "api": "csp_GuanYing",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/guanying.json",
+                "sites": "https://www.xn--kivn76b41nnhi.com",
+                "proxy": "proxy"
             }
         },
         {
