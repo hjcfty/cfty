@@ -4,7 +4,7 @@
     "sites": [
         {
             "key": "csp_Douban",
-            "name": "❤️天扬网盘在线",
+            "name": "❤️天扬网盘专线❤️",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -15,7 +15,7 @@
         },
         {
             "key": "csp_Config",
-            "name": "💞网盘登录系统💞",
+            "name": "🧡网盘配置中心🧡",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -119,7 +119,7 @@
         },
         {
             "key": "csp_TgDouban",
-            "name": "🖤TG豆瓣🖤",
+            "name": "🖤TG豆瓣",
             "type": 3,
             "api": "csp_TgDouban",
             "searchable": 1,
@@ -131,7 +131,7 @@
         },
         {
             "key": "csp_PanSou",
-            "name": "🖤盘搜🖤",
+            "name": "🖤盘搜",
             "type": 3,
             "hide": 1,
             "api": "csp_PanSou",
@@ -151,7 +151,7 @@
         },
         {
             "key": "csp_PgDouban",
-            "name": "🖤PG豆瓣🖤",
+            "name": "🖤PG豆瓣",
             "type": 3,
             "api": "csp_PgDouban",
             "searchable": 1,
@@ -159,7 +159,7 @@
             "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "Tgsearchers6,yunpan139,yggpan,xunlei_yppan,yunpanxunlei,yunpanuc,shareAliyun,yunpan189,BaiduCloudDisk,Channel_Shares_115,gimy115,ydypzyfx,dianying4K,sbsbsnsqq,Q_dongman,ysmffx,XiangxiuNBB,yoyokuakeduanju,yeqingjie_GJG666,TG654TG,PanjClub,guoman4K,alyp_1,kuake_yppan,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,tianyirigeng,tyypzhpd,zaihuayun,ali_yppan"
+                "channel": "Tgsearchers6,peccxinpd,yunpan139,yggpan,xunlei_yppan,yunpanxunlei,yunpanuc,shareAliyun,yunpan189,BaiduCloudDisk,Channel_Shares_115,gimy115,ydypzyfx,dianying4K,sbsbsnsqq,Q_dongman,ysmffx,XiangxiuNBB,yoyokuakeduanju,yeqingjie_GJG666,TG654TG,PanjClub,guoman4K,alyp_1,kuake_yppan,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,tianyirigeng,tyypzhpd,zaihuayun,ali_yppan"
             }
         },
         {
@@ -167,53 +167,53 @@
             "name": "🖤夸克推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=quark"
+            "api": "https://103.239.245.69:15151/api.php?type=quark"
         },
         {
             "key": "百度推送",
             "name": "🖤百度推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=baidu"
+            "api": "https://103.239.245.69:15151/api.php?type=baidu"
         },
         {
             "key": "UC推送",
             "name": "🖤优熙推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=uc"
+            "api": "https://103.239.245.69:15151/api.php?type=uc"
         },
         {
             "key": "天翼推送",
             "name": "🖤天翼推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=tianyi"
+            "api": "https://103.239.245.69:15151/api.php?type=tianyi"
         },
         {
             "key": "123推送",
             "name": "🖤123推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=123"
+            "api": "https://103.239.245.69:15151/api.php?type=123"
         },
         {
             "key": "移动推送",
             "name": "🖤移动推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=mobile"
+            "api": "https://103.239.245.69:15151/api.php?type=mobile"
         },
         {
             "key": "迅雷",
             "name": "🖤迅雷推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/api.php?type=xunlei"
+            "api": "https://103.239.245.69:15151/api.php?type=xunlei"
         },
         {
             "key": "csp_Panta91",
-            "name": "🖤盘他",
+            "name": "🖤盘Ta移动",
             "type": 3,
             "api": "csp_Panta91",
             "searchable": 0,
@@ -230,8 +230,23 @@
             }
         },
         {
+            "key": "csp_GuanYing",
+            "name": "🖤观影4K",
+            "type": 3,
+            "api": "csp_GuanYing",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/guanying.json",
+                "sites": "https://www.xn--wcv59z.com/",
+                "proxy": "noproxy"
+            }
+        },
+        {
             "key": "csp_PingLian",
-            "name": "🖤盘链4K🖤",
+            "name": "🖤盘链4K",
             "type": 3,
             "api": "csp_PingLian",
             "searchable": 1,
@@ -254,7 +269,7 @@
         },
         {
             "key": "csp_Xxzn",
-            "name": "🖤4k指南原盘🖤",
+            "name": "🖤4K指南原盘",
             "type": 3,
             "api": "csp_Xxzn",
             "filterable": 1,
@@ -282,21 +297,6 @@
                 "sites": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
                 "proxy": "noproxy",
                 "classes": "./json/leijing.json"
-            }
-        },
-        {
-            "key": "csp_GuanYing",
-            "name": "🖤观影4K",
-            "type": 3,
-            "api": "csp_GuanYing",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "ext": {
-                "cookie": "",
-                "filters": "./json/guanying.json",
-                "sites": "https://www.xn--kivn76b41nnhi.com",
-                "proxy": "proxy"
             }
         },
         {
@@ -339,7 +339,7 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "http://fmao.shop",
+                "sites": "http://xiaocge.fun",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
@@ -424,11 +424,22 @@
             "name": "🖤短剧推送",
             "type": 4,
             "hide": 1,
-            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+            "api": "https://103.239.245.69:15151/duanju.php?type=dquark"
+        },
+        {
+            "key": "csp_Kan90",
+            "name": "🖤最全短剧",
+            "type": 3,
+            "api": "csp_Kan90",
+            "timeout": 60,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "类型": "短剧"
         },
         {
             "key": "夸克短剧",
-            "name": "夸克短剧",
+            "name": "🖤夸克短剧",
             "type": 3,
             "api": "csp_XBPQ",
             "timeout": 60,
@@ -438,7 +449,7 @@
         },
         {
             "key": "短剧百度",
-            "name": "短剧百度",
+            "name": "🖤短剧百度",
             "type": 3,
             "timeout": 60,
             "api": "csp_XBPQ",
@@ -448,7 +459,7 @@
         },
         {
             "key": "短剧夸克",
-            "name": "短剧夸克",
+            "name": "🖤短剧夸克",
             "type": 3,
             "timeout": 60,
             "api": "csp_XBPQ",
@@ -457,41 +468,18 @@
             "类型": "短剧"
         },
         {
-            "key": "爱看资源网",
-            "name": "爱看网盘",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/爱看资源网.js"
-        },
-        {
             "key": "cat_夸克影院",
-            "name": "夸克影院",
+            "name": "🖤夸克影院",
             "type": 3,
             "timeout": 60,
             "api": "./js/夸克影院.js"
         },
         {
             "key": "cat_HDmoli",
-            "name": "HDmoli影院",
+            "name": "🖤HDmoli影院",
             "type": 3,
             "timeout": 60,
             "api": "./js/HDmoli.js"
-        },
-        {
-            "key": "米盘搜索",
-            "name": "🖤米盘搜索",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/米盘搜索.js"
-        },
-        {
-            "key": "人人",
-            "name": "人人电影",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/人人电影.js"
         },
         {
             "key": "py_盘友圈",
@@ -506,9 +494,8 @@
         },
         {
             "key": "push_agent",
-            "name": "😋链接┃推送",
+            "name": "💜链接推送",
             "type": 3,
-            "hide": 1,
             "api": "csp_Push",
             "searchable": 0,
             "changeable": 0,

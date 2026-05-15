@@ -164,6 +164,12 @@
             "ext": "./js/金牌影视.js"
         },
         {
+            "key": "py_剧",
+            "name": "❤️剧爸爸❤️",
+            "type": 3,
+            "api": "./py/剧爸爸.py"
+        },
+        {
             "key": "极境视频",
             "name": "❤️河马1",
             "type": 3,
@@ -244,6 +250,14 @@
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
+        },
+        {
+            "key": "TVB云播",
+            "name": "❤️TVBAPP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_Appfox",
+            "ext": "http://app.hktvyb.cc"
         },
         {
             "key": "xy_xcyy",
@@ -931,7 +945,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "api": "https://api-v2.cenguigui.cn/api",
+                "api": "https://api.cenguigui.cn/api",
                 "classes": "./json/duanjucen.json"
             },
             "类型": "短剧"
@@ -960,6 +974,12 @@
             "type": 3,
             "api": "./js/drpy8.min.js",
             "ext": "./js/七猫.js"
+        },
+        {
+            "key": "聚合短剧",
+            "name": "💖聚合短剧",
+            "type": 3,
+            "api": "./js/聚合短剧.js"
         },
         {
             "key": "csp_ShuaiJiao",
@@ -1205,6 +1225,25 @@
             ]
         }
     ],
+    "parses": [
+        {
+            "name": "",
+            "type": 1,
+            "url": ""
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ],
     "proxy": [
         "raw.githubusercontent.com",
         "googlevideo.com",
@@ -1260,25 +1299,6 @@
     ],
     "headers": [],
     "hosts": [],
-    "parses": [
-        {
-            "name": "",
-            "type": 1,
-            "url": ""
-        }
-    ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu"
-    ],
     "ads": [
         "static-mozai.4gtv.tv",
         "s3t3d2y8.afcdn.net"
