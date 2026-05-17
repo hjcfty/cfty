@@ -7,6 +7,24 @@
                 "url": "https://v6.gh-proxy.org/https://github.com/hjcfty/ys/releases/latest/download/tyys.apk",
                 "icon": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/cfty/refs/heads/main/logo.png",
                 "version": "版本:5.1.6"
+            },
+            {
+                "name": "蜂蜜影视手机版",
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+                "icon": "",
+                "version": "手机64位"
+            },
+            {
+                "name": "蜂蜜影视电视版",
+                "url": "https://v6.gh-proxy.org//https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+                "icon": "",
+                "version": "电视32位"
+            },
+            {
+                "name": "蜂蜜影视电视版",
+                "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+                "icon": "",
+                "version": "电视64位"
             }
         ]
     }
