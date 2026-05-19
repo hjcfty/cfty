@@ -82,6 +82,12 @@
             "api": "./py/央视大全套.py"
         },
         {
+            "key": "哔",
+            "name": "❤️哔哩哔哩合集",
+            "type": 3,
+            "api": "./js/哔哩.js"
+        },
+        {
             "key": "恐怖",
             "name": "💔天扬恐怖系列",
             "api": "csp_FileSpider",
@@ -247,12 +253,6 @@
             "api": "csp_XBPQ",
             "jar": "./jar/xbpq.jar",
             "ext": "./json/喵TV.json"
-        },
-        {
-            "key": "cat_3Q",
-            "name": "❤️天扬3Q影视cat",
-            "type": 3,
-            "api": "./js/3Q影视.js"
         },
         {
             "key": "界影PY",
@@ -569,25 +569,6 @@
             "name": "🩵爱看影视",
             "type": 3,
             "api": "./js/爱看机器人.js"
-        },
-        {
-            "key": "cat_荐片app",
-            "name": "📺荐片cat",
-            "type": 3,
-            "api": "./js/荐片cat.js"
-        },
-        {
-            "key": "drpy2_缘觉影视",
-            "name": "📺缘觉影视js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/缘觉影视.js"
-        },
-        {
-            "key": "哔",
-            "name": "❤️哔哩哔哩合集",
-            "type": 3,
-            "api": "./js/哔哩.js"
         },
         {
             "key": "bilibili",
