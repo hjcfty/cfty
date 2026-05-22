@@ -1,0 +1,22 @@
+{
+    "主页url": "https://app.95112475.xyz/api.php/getappapi.index/typeFilterVodList;post;area=全部&year=全部&type_id=0&sort=最新&page=1&lang=全部&class=全部",
+    "请求头": "User-Agent$okhttp/3.14.9",
+    "分类url": "https://app.95112475.xyz/api.php/getappapi.index/typeFilterVodList;post;area={area}&year={year}&type_id={cateId}&sort={by}&page={catePg}&lang={lang}&class={class};;U",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
+    "二次截取": "data\":\"&&\"[工具:解aes-5a9w6x58dsq6z3a6-5a9w6x58dsq6z3a6-AES/CBC/PKCS7Padding]",
+    "数组": "j:recommend_list",
+    "图片": "j:vod_pic",
+    "标题": "j:vod_name",
+    "副标题": "j:vod_remarks",
+    "链接": "https://app.95112475.xyz/api.php/getappapi.index/vodDetail;post;vod_id=+j:vod_id",
+    "详情二次截取": "data\":\"&&\"[工具:解aes-5a9w6x58dsq6z3a6-5a9w6x58dsq6z3a6-AES/CBC/PKCS7Padding]",
+    "影片年代": "j:vod.vod_year",
+    "影片地区": "j:vod.vod_area",
+    "影片类型": "j:vod.vod_class",
+    "状态": "j:vod.vod_remarks",
+    "导演": "j:vod.vod_director",
+    "主演": "j:vod.vod_actor",
+    "简介": "j:vod.vod_blurb",
+    "线路二次截取": "data\":\"&&\"[工具:解aes-5a9w6x58dsq6z3a6-5a9w6x58dsq6z3a6-AES/CBC/PKCS7Padding]",
+    "播放二次截取": "data\":\"&&\"[工具:解aes-5a9w6x58dsq6z3a6-5a9w6x58dsq6z3a6-AES/CBC/PKCS7Padding]"
+}
