@@ -182,6 +182,14 @@
             "ext": "./js/金牌影视.js"
         },
         {
+            "key": "王子",
+            "name": "❤️王子APP",
+            "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
+            "api": "csp_XBPQ",
+            "ext": "./json/王子APP.json"
+        },
+        {
             "key": "py_剧",
             "name": "❤️剧爸爸❤️",
             "type": 3,
