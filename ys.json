@@ -308,6 +308,23 @@
             "changeable": 1
         },
         {
+            "key": "茶杯狐",
+            "name": "❤️茶杯狐",
+            "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
+            "api": "csp_XBPQ",
+            "ext": {
+                "简介": "【广告勿信】+&&",
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "lazyload&&</a>",
+                "标题": "+title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "分类url": "https://www.xmhxdq.com/vodshow/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#"
+            }
+        },
+        {
             "key": "韩剧看看",
             "name": "❤️天扬韩剧看看",
             "type": 3,
@@ -523,45 +540,6 @@
                 "日本剧",
                 "欧美剧",
                 "国产剧"
-            ]
-        },
-        {
-            "key": "jszycj",
-            "name": "❤️天扬极速采集",
-            "type": 1,
-            "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "恐怖片",
-                "动画片",
-                "剧情片",
-                "战争片",
-                "爱情片",
-                "喜剧片",
-                "科幻片",
-                "纪录片",
-                "灾难片",
-                "悬疑片",
-                "犯罪片",
-                "奇幻片",
-                "日剧",
-                "马泰剧",
-                "内地剧",
-                "欧美剧",
-                "香港剧",
-                "韩剧",
-                "台湾剧",
-                "中国动漫",
-                "日本动漫",
-                "欧美动漫",
-                "大陆综艺",
-                "日韩综艺",
-                "港台综艺",
-                "欧美综艺",
-                "短剧"
             ]
         },
         {
