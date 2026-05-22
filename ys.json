@@ -99,6 +99,15 @@
             "switchable": 1
         },
         {
+            "key": "柠檬",
+            "name": "❤️柠檬影视秒播",
+            "type": 3,
+            "api": "csp_Nmvod",
+            "playerType": 2,
+            "jar": "./jar/nm.jar;md5;939FFBC2941A28CA533F2653FA4B449E",
+            "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+        },
+        {
             "key": "布布",
             "name": "❤️布布影视",
             "type": 3,
@@ -316,12 +325,17 @@
             "changeable": 1
         },
         {
-            "key": "茶杯狐",
+            "key": "茶",
             "name": "❤️茶杯狐",
             "type": 3,
             "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
             "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
             "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
                 "数组": "p:.public-list-box",
                 "链接": "p:->href",
                 "标题": "p:->title",
