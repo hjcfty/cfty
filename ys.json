@@ -328,6 +328,7 @@
                 "副标题": "p:.ft4->text",
                 "图片": "p:->data-src",
                 "分类url": "https://ssprstn.com/list/{cateId}--------{catePg}---.html",
+                "搜索url": "https://ssprstn.com/search/{wd}----------{pg}---.html",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
             }
         },
