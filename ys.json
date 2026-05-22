@@ -322,14 +322,13 @@
             "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
             "api": "csp_XBPQ",
             "ext": {
-                "简介": "【广告勿信】+&&",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "数组": "lazyload&&</a>",
-                "标题": "+title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "分类url": "https://www.xmhxdq.com/vodshow/{cateId}--------{catePg}---.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#"
+                "数组": "p:.public-list-box",
+                "链接": "p:->href",
+                "标题": "p:->title",
+                "副标题": "p:.ft4->text",
+                "图片": "p:->data-src",
+                "分类url": "https://ssprstn.com/list/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
             }
         },
         {
@@ -410,6 +409,14 @@
                 "跳转播放链接": "var player_aaa*\"url\":\"&&\"",
                 "嗅探词": ".m3u8"
             }
+        },
+        {
+            "key": "番薯",
+            "name": "❤️番薯动漫APP",
+            "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
+            "api": "csp_XBPQ",
+            "ext": "./json/番薯动漫APP.json"
         },
         {
             "key": "csp_jazy",
