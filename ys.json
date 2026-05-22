@@ -113,9 +113,9 @@
             "key": "A36",
             "name": "❤️天扬高清点播",
             "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
             "api": "csp_XBPQ",
-            "ext": "./json/高清点播.json",
-            "jar": "./jar/1118.jar"
+            "ext": "./json/高清点播.json"
         },
         {
             "key": "热播影",
@@ -219,9 +219,9 @@
             "key": "麦田",
             "name": "❤️麦田影视",
             "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
             "api": "csp_XBPQ",
-            "ext": "./json/麦田.json",
-            "jar": "./jar/1118.jar"
+            "ext": "./json/麦田.json"
         },
         {
             "key": "1905",
@@ -955,6 +955,14 @@
             "searchable": 0,
             "changeable": 0,
             "filterable": 1
+        },
+        {
+            "key": "s",
+            "name": "💖SVIP短剧",
+            "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
+            "api": "csp_XBPQ",
+            "ext": "./json/svip短剧.json"
         },
         {
             "key": "JuWang",
