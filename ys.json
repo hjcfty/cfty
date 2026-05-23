@@ -338,7 +338,7 @@
                 "编码": "UTF-8",
                 "数组": "p:.public-list-box",
                 "链接": "p:->href",
-                "标题": "p:->title",
+                "标题": "p:img->alt",
                 "副标题": "p:.ft4->text",
                 "图片": "p:->data-src",
                 "分类url": "https://ssprstn.com/list/{cateId}--------{catePg}---.html",
@@ -953,6 +953,12 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": ""
+        },
+        {
+            "key": "py_短剧",
+            "name": "💖七星七猫好看短剧💖",
+            "type": 3,
+            "api": "./py/七星七猫好看短剧.py"
         },
         {
             "key": "HeMa",
