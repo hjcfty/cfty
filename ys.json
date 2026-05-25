@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;0b2ba18925f2af7ba6a85dca889f9b5e",
+    "spider": "./jar/vox.jar;md5;280b675330c98a932ff63c447c2ef160",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -372,6 +372,12 @@
                 "ratio": 1.33
             },
             "changeable": 1
+        },
+        {
+            "key": "py_58",
+            "name": "❤️58影视❤️",
+            "type": 3,
+            "api": "./py/58影视.py"
         },
         {
             "key": "毒蛇",
