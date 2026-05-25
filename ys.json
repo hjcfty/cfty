@@ -848,14 +848,6 @@
             "filterable": 1
         },
         {
-            "key": "s",
-            "name": "💖SVIP短剧",
-            "type": 3,
-            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
-            "api": "csp_XBPQ",
-            "ext": "./json/svip短剧.json"
-        },
-        {
             "key": "JuWang",
             "name": "💖剧王短剧",
             "type": 3,
