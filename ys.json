@@ -42,7 +42,7 @@
         },
         {
             "key": "配置",
-            "name": "💓哔哩登陆💓",
+            "name": "💓数据库设置💓",
             "type": 3,
             "hide": 1,
             "api": "csp_ConfigCenter",
@@ -585,212 +585,83 @@
             "api": "./js/爱看机器人.js"
         },
         {
-            "key": "bilibili",
-            "name": "🅱️哔哩超大合集",
+            "key": "csp_Bili",
+            "name": "🅱️哔哩┃合集",
             "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
+            "api": "csp_BiliJs",
+            "filterable": 1,
             "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "json": "./config/daheji.json",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "哔哩哔哩演唱会",
-            "name": "🅱️｜哔哩｜音乐",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/blych.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩听书",
-            "name": "🅱️｜哔哩｜听书",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/blts.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩相声",
-            "name": "🅱️｜哔哩｜相声",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/blxs.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩小品",
-            "name": "🅱️｜哔哩｜小品",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/blxp.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩戏曲",
-            "name": "🅱️｜哔哩｜戏曲",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/blxq.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "少儿教育",
-            "name": "🅱️｜少儿｜教育",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/sejy.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "小学课堂",
-            "name": "🅱️｜小学｜课堂",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/xxkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "初中课堂",
-            "name": "🅱️｜初中｜课堂",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/czkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "高中课堂",
-            "name": "🅱️｜高中｜课堂",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "ext": {
-                "json": "./config/gzkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩影视",
-            "name": "🅱️｜哔哩｜影视",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_BiliPGC",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
             "changeable": 0,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
+            "ext": {
+                "type": "./json/bili.json"
+            },
             "style": {
                 "type": "rect",
-                "ratio": 1.597
-            },
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_Biliyy",
+            "name": "🅱️哔哩┃音乐",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
             "ext": {
-                "json": "./config/blys.json",
-                "cookie": ""
+                "type": "./json/biliyy.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_mtv",
+            "name": "🅱️MV┃音乐",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./json/mtv.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_bilims",
+            "name": "🅱️喜欢┃美食",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./json/bilims.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_bilirt",
+            "name": "🅱️儿童┃最爱",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./json/bilirt.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
             }
         },
         {
