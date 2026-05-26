@@ -44,7 +44,6 @@
             "key": "配置",
             "name": "💓数据库设置💓",
             "type": 3,
-            "hide": 1,
             "api": "csp_ConfigCenter",
             "searchable": 0,
             "changeable": 0,
