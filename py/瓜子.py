@@ -183,7 +183,7 @@ class Spider(Spider):
                 "vod_actor": vod.get('vod_actor', ''),
                 "vod_director": vod.get('vod_director', ''),
                 "vod_content": vod.get('vod_use_content', '').strip(),
-                "vod_play_from": "天扬瓜子频道"
+                "vod_play_from": "天扬瓜子"
             }
             
             # 构建播放列表
@@ -289,7 +289,7 @@ class Spider(Spider):
                         "parse": 0,
                         "playUrl": "",
                         "url": data['url'],
-                        "header": json.dumps(self.header)
+                        "header": json.dumps({"User-Agent": "Lavf/57.83.100"})
                     }
             
             return {"parse": 0, "playUrl": "", "url": ""}
