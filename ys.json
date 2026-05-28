@@ -81,12 +81,6 @@
             "api": "./py/央视大全套.py"
         },
         {
-            "key": "哔",
-            "name": "❤️哔哩哔哩合集",
-            "type": 3,
-            "api": "./js/哔哩.js"
-        },
-        {
             "key": "恐怖",
             "name": "💔天扬恐怖系列",
             "api": "csp_FileSpider",

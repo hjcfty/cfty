@@ -2,31 +2,15 @@
     "urls": [
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/cfty/refs/heads/main/ys.json",
-            "name": "❤️天扬在线❤️"
-        },
-        {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/fan/refs/heads/main/ty.json",
-            "name": "❤️天扬精简备用❤️"
+            "name": "❤️天扬主线❤️"
         },
         {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/cfty/refs/heads/main/pan.json",
             "name": "❤️天扬网盘专线❤️"
         },
         {
-            "url": "http://www.饭太硬.net/tv",
-            "name": "饭太硬在线"
-        },
-        {
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2",
-            "name": "裤佬在线"
-        },
-        {
-            "url": "https://fastgit.cc/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
-            "name": "东篱在线"
-        },
-        {
-            "name": "二小在线",
-            "url": "https://9280.kstore.vip/newwex.json"
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/fan/refs/heads/main/ty.json",
+            "name": "❤️天扬精简备用❤️"
         }
     ]
 }
