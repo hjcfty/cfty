@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;7e5e460ee0b598b74fcc9c88cfbe1142",
+    "spider": "./jar/vox.jar;md5;25e39937c4bdd4c783eeb86a52672f64",
     "logo": "./logo.png",
     "sites": [
         {
@@ -71,7 +71,7 @@
         },
         {
             "key": "csp_PanShareBaidu",
-            "name": "🧡阿度网盘",
+            "name": "🖤阿度网盘",
             "type": 3,
             "api": "csp_PanShareBaidu",
             "searchable": 1,
