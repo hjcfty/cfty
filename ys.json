@@ -257,6 +257,16 @@
             }
         },
         {
+            "key": "Cat_荐片",
+            "name": "❤️荐片ᶜᵃᵗAPP",
+            "type": 3,
+            "api": "./js/荐片2.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "类型": "影视"
+        },
+        {
             "key": "喵喵",
             "name": "❤️天扬喵TV",
             "type": 3,
@@ -689,6 +699,42 @@
             "filterable": 1,
             "ext": "./json/tongqu.json",
             "jar": "./jar/et.jar;md5;d4d86ebaffa18b3058e2fad90ace00af"
+        },
+        {
+            "key": "Cat_喜马拉雅",
+            "name": "🎧️ 喜马ᶜᵃᵗ丨听书",
+            "type": 3,
+            "api": "./js/喜马.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "Cat_聚合音乐",
+            "name": "🎻 聚合ᶜᵃᵗ丨音乐",
+            "type": 3,
+            "api": "./js/音乐聚合.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "Cat_聚合儿歌",
+            "name": "👶 聚合ᶜᵃᵗ丨儿童",
+            "type": 3,
+            "api": "./js/儿歌.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "Cat_聚合知识",
+            "name": "📻 聚合ᶜᵃᵗ丨知识",
+            "type": 3,
+            "api": "./js/知识聚合.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
         },
         {
             "key": "AiWan",
