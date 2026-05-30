@@ -13,8 +13,16 @@
             "name": "🧡天扬网盘专线🧡"
         },
         {
+            "url": "http://fty.xxooo.cf/tv",
+            "name": "饭太硬"
+        },
+        {
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/hjcfty/fan/refs/heads/main/ty.json",
-            "name": "🧡饭太硬lite🧡"
+            "name": "饭太硬lite"
+        },
+        {
+            "url": "https://fastgit.cc/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+            "name": "东篱在线"
         }
     ]
 }
