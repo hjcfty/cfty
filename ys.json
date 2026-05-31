@@ -776,6 +776,36 @@
             "ext": "./js/扣扣.js"
         },
         {
+            "key": "爱听音乐31",
+            "name": "🎧爱听音乐",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/爱听音乐.json"
+        },
+        {
+            "key": "0深港音乐网1",
+            "name": "🎧深港音乐网",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/深港音乐网.json"
+        },
+        {
+            "key": "0xmdj",
+            "name": "🎧小米DJ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/小米dj.json"
+        },
+        {
             "key": "csp_xq",
             "name": "💗🎧戏曲大全",
             "type": 3,
