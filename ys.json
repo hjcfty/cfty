@@ -1021,9 +1021,9 @@
         },
         {
             "key": "csp_TgDouban",
-            "name": "🖤TG盘搜不登录网盘不要点🖤",
+            "name": "🖤TG盘搜🖤",
             "type": 3,
-            "hide": 0,
+            "hide": 1,
             "api": "csp_TgDouban",
             "searchable": 1,
             "changeable": 1,
