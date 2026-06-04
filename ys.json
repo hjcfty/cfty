@@ -112,6 +112,12 @@
             "changeable": 1
         },
         {
+            "key": "py耐看",
+            "name": "❤️耐看",
+            "type": 3,
+            "api": "./py/耐看.py"
+        },
+        {
             "key": "A36",
             "name": "❤️天扬高清点播",
             "type": 3,
