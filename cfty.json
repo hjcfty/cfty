@@ -27,6 +27,14 @@
         {
             "url": "https://fastgit.cc/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
             "name": "东篱在线"
+        },
+        {
+            "url": "http://mytv6688.xyz/aowu/config.webp",
+            "name": "嗷呜在线"
+        },
+        {
+            "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
+            "name": "潇洒在线"
         }
     ]
 }
