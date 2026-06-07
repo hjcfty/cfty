@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;a93d000cbccd5784c3e71b4a29d74ba3",
+    "spider": "./jar/vox.jar;md5;76ea792e1d2ed29f712464d4ce2ba280",
     "logo": "./logo.png",
     "sites": [
         {
@@ -147,19 +147,6 @@
                     "预告",
                     "花絮"
                 ]
-            }
-        },
-        {
-            "key": "csp_PgDouban",
-            "name": "🖤PG豆瓣",
-            "type": 3,
-            "api": "csp_PgDouban",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 60,
-            "ext": {
-                "filters": "./json/douban.json",
-                "channel": "Tgsearchers6,peccxinpd,yunpan139,yggpan,xunlei_yppan,yunpanxunlei,yunpanuc,shareAliyun,yunpan189,BaiduCloudDisk,Channel_Shares_115,gimy115,ydypzyfx,dianying4K,sbsbsnsqq,Q_dongman,ysmffx,XiangxiuNBB,yoyokuakeduanju,yeqingjie_GJG666,TG654TG,PanjClub,guoman4K,alyp_1,kuake_yppan,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,tianyirigeng,tyypzhpd,zaihuayun,ali_yppan"
             }
         },
         {

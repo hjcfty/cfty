@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;a93d000cbccd5784c3e71b4a29d74ba3",
+    "spider": "./jar/vox.jar;md5;76ea792e1d2ed29f712464d4ce2ba280",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -1072,20 +1072,6 @@
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=xunlei"
-        },
-        {
-            "key": "csp_PgDouban",
-            "name": "🖤PG豆瓣🖤",
-            "type": 3,
-            "hide": 1,
-            "api": "csp_PgDouban",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 60,
-            "ext": {
-                "filters": "./json/douban.json",
-                "channel": "yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,dianying4K,yeqingjie_GJG666,PanjClub,guoman4K,alyp_1,kuake_yppan,yunpanuc,BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd,shareAliyun,zaihuayun,ali_yppan"
-            }
         },
         {
             "key": "push_agent",
