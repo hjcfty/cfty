@@ -4,6 +4,11 @@
     "logo": "./logo.png",
     "lives": [
         {
+            "name": "直播",
+            "type": 0,
+            "url": "http://82.156.243.185:33389/fwc.m3u"
+        },
+        {
             "name": "风云TV直播",
             "type": 1,
             "url": "http://iptv.4666888.xyz/FYTV.txt"
@@ -27,17 +32,16 @@
     ],
     "sites": [
         {
-            "key": "csp_rbpy",
-            "name": "❤️天扬影视",
+            "key": "py_农民",
+            "name": "❤️天扬影视❤️",
             "type": 3,
-            "api": "./py/热播.py"
+            "api": "./py/农民影视.py"
         },
         {
-            "key": "py_农民",
-            "name": "❤️天扬❤️",
+            "key": "csp_rbpy",
+            "name": "❤️天扬影视2",
             "type": 3,
-            "hide": 1,
-            "api": "./py/农民影视.py"
+            "api": "./py/热播.py"
         },
         {
             "key": "csp_Config",
@@ -60,6 +64,17 @@
                 "ratio": 1.433
             },
             "ext": "./config/configcenter.json"
+        },
+        {
+            "key": "世界杯",
+            "name": "🏆🏆世界杯🏆🏆",
+            "api": "csp_FileSpider",
+            "type": "3",
+            "jar": "./jar/WvSpider.jar",
+            "ext": "http://82.156.243.185:33389/fwc.m3u",
+            "searchable": 1,
+            "filterable": 1,
+            "switchable": 1
         },
         {
             "key": "wv_yszb",
