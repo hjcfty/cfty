@@ -27,9 +27,16 @@
     ],
     "sites": [
         {
-            "key": "py_农民",
-            "name": "❤️天扬影视❤️",
+            "key": "csp_rbpy",
+            "name": "❤️天扬影视",
             "type": 3,
+            "api": "./py/热播.py"
+        },
+        {
+            "key": "py_农民",
+            "name": "❤️天扬❤️",
+            "type": 3,
+            "hide": 1,
             "api": "./py/农民影视.py"
         },
         {
@@ -293,12 +300,6 @@
             "name": "❤️鬼片之家",
             "type": 3,
             "api": "./js/鬼片.js"
-        },
-        {
-            "key": "csp_rbpy",
-            "name": "❤️热播",
-            "type": 3,
-            "api": "./py/热播.py"
         },
         {
             "key": "泥本地",
