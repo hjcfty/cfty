@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;76ea792e1d2ed29f712464d4ce2ba280",
+    "spider": "./jar/vox.jar;md5;898d5da0c2ad8c65a84e496838fa1d68",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -140,6 +140,14 @@
             "api": "./py/耐看.py"
         },
         {
+            "key": "A236",
+            "name": "❤️闪电影视",
+            "type": 3,
+            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
+            "api": "csp_XBPQ",
+            "ext": "./json/闪电影视.json"
+        },
+        {
             "key": "A36",
             "name": "❤️天扬高清点播",
             "type": 3,
@@ -169,6 +177,13 @@
             "api": "csp_Guazi",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "drpy2_瓜子",
+            "name": "❤️瓜子js",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/瓜子js.js"
         },
         {
             "key": "csp_Gz360",
@@ -1113,6 +1128,15 @@
                 "ratio": 1.1
             },
             "ext": "./config/market.json"
+        },
+        {
+            "key": "商店2",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./json/market.json"
         }
     ],
     "doh": [
