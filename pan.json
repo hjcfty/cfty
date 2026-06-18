@@ -1,11 +1,22 @@
 {
-    "spider": "./jar/vox.jar;md5;898d5da0c2ad8c65a84e496838fa1d68",
+    "spider": "./jar/vox.jar;md5;2c09761b17b36a3c58291eb6436c3542",
     "logo": "./logo.png",
     "sites": [
         {
-            "key": "csp_TgDouban",
-            "name": "天扬影视",
+            "key": "csp_Douban",
+            "name": "❤️天扬网盘线路❤️",
             "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "indexs": 1,
+            "ext": "./json/douban.json"
+        },
+        {
+            "key": "csp_TgDouban",
+            "name": "豆瓣搜",
+            "type": 3,
+            "hide": 1,
             "api": "csp_TgDouban",
             "searchable": 1,
             "changeable": 1,

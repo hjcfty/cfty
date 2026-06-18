@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;898d5da0c2ad8c65a84e496838fa1d68",
+    "spider": "./jar/vox.jar;md5;2c09761b17b36a3c58291eb6436c3542",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -32,17 +32,16 @@
     ],
     "sites": [
         {
+            "key": "py_农民",
+            "name": "❤️天扬影视❤️",
+            "type": 3,
+            "api": "./py/农民影视.py"
+        },
+        {
             "key": "csp_rbpy",
             "name": "❤️天扬热播",
             "type": 3,
             "api": "./py/热播.py"
-        },
-        {
-            "key": "py_农民",
-            "name": "❤️天扬影视❤️",
-            "type": 3,
-            "hide": 1,
-            "api": "./py/农民影视.py"
         },
         {
             "key": "csp_Config",
@@ -1027,16 +1026,6 @@
             }
         },
         {
-            "key": "csp_XinTiao",
-            "name": "🖤心跳4K🖤",
-            "type": 3,
-            "hide": 1,
-            "timeout": 60,
-            "api": "csp_XinTiao",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "csp_PanSou",
             "name": "🖤盘搜🖤",
             "type": 3,
@@ -1058,61 +1047,79 @@
         },
         {
             "key": "夸克推送",
-            "name": "🖤夸克推送🖤",
+            "name": "夸克┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=quark"
         },
         {
             "key": "百度推送",
-            "name": "🖤百度推送🖤",
+            "name": "百度┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=baidu"
         },
         {
             "key": "UC推送",
-            "name": "🖤优熙推送🖤",
+            "name": "优熙┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=uc"
         },
         {
             "key": "天翼推送",
-            "name": "🖤天翼推送🖤",
+            "name": "天翼┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
             "key": "123推送",
-            "name": "🖤123盘推送🖤",
+            "name": "123┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=123"
         },
         {
             "key": "移动推送",
-            "name": "🖤移动推送🖤",
+            "name": "移动┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=mobile"
         },
         {
             "key": "迅雷",
-            "name": "🖤迅雷推送🖤",
+            "name": "迅雷┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=xunlei"
         },
         {
-            "key": "push_agent",
-            "name": "🖤链接┃推送🖤",
-            "type": 3,
+            "key": "py_盘友圈",
+            "name": "盘友┃搜索",
+            "api": "./py/盘友圈.py",
+            "filterable": 1,
+            "timeout": 60,
+            "quickSearch": 1,
+            "searchable": 1,
             "hide": 1,
+            "type": 3
+        },
+        {
+            "key": "短裤",
+            "name": "短剧┃搜索",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+        },
+        {
+            "key": "push_agent",
+            "name": "链接┃推送",
+            "type": 3,
             "api": "csp_Push",
             "searchable": 0,
             "changeable": 0,
+            "hide": 1,
             "timeout": 60
         },
         {
