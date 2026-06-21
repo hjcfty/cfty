@@ -179,22 +179,6 @@
             "changeable": 1
         },
         {
-            "key": "drpy2_瓜子",
-            "name": "❤️瓜子js",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/瓜子js.js"
-        },
-        {
-            "key": "csp_Gz360",
-            "name": "❤️天扬瓜子3K",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "https://pub-2ba1aa9b484b49b8a52fd6cc5edc803b.r2.dev/feimao.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
-        },
-        {
             "key": "py瓜子",
             "name": "❤️瓜子秒播py",
             "type": 3,
