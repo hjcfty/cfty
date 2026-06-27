@@ -261,6 +261,29 @@
             "ext": "./json/麦田.json"
         },
         {
+            "key": "厂长",
+            "name": "❤️厂长影视",
+            "type": 3,
+            "api": "csp_NewCzGuard",
+            "jar": "./jar/fantaiying.jar;md5;c1bb8166a36306e250f791897717deb0",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "哇哇影视",
+            "name": "❤️哇哇影视",
+            "type": 3,
+            "api": "./py/哇哇影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "1905",
             "name": "❤️老片1905影视",
             "type": 3,
