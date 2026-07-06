@@ -32,16 +32,16 @@
     ],
     "sites": [
         {
-            "key": "csp_rbpy",
-            "name": "❤️天扬热播",
-            "type": 3,
-            "api": "./py/热播.py"
-        },
-        {
             "key": "py_农民",
             "name": "❤️天扬影视❤️",
             "type": 3,
             "api": "./py/农民影视.py"
+        },
+        {
+            "key": "csp_rbpy",
+            "name": "❤️天扬热播",
+            "type": 3,
+            "api": "./py/热播.py"
         },
         {
             "key": "csp_Config",
@@ -215,12 +215,6 @@
             "ext": "./json/王子APP.json"
         },
         {
-            "key": "py_剧",
-            "name": "❤️剧爸爸❤️",
-            "type": 3,
-            "api": "./py/剧爸爸.py"
-        },
-        {
             "key": "极境视频",
             "name": "❤️河马1",
             "type": 3,
@@ -267,17 +261,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "哇哇影视",
-            "name": "❤️哇哇影视",
-            "type": 3,
-            "api": "./py/哇哇影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
         },
         {
             "key": "1905",
@@ -400,12 +383,6 @@
                 "ratio": 1.33
             },
             "changeable": 1
-        },
-        {
-            "key": "py_58",
-            "name": "❤️58影视❤️",
-            "type": 3,
-            "api": "./py/58影视.py"
         },
         {
             "key": "毒蛇",
@@ -729,36 +706,10 @@
             "filterable": 1
         },
         {
-            "key": "AiWan",
-            "name": "❤️🎧爱玩音乐",
-            "type": 3,
-            "jar": "./jar/dongli-spider.jar;md5;cde4e6ab82240578a20e65d3c34ad4d3",
-            "api": "csp_AiWan",
-            "searchable": 1,
-            "changeable": 0,
-            "filterable": 1
-        },
-        {
-            "key": "爱听音乐",
-            "name": "❤️🎧爱听音乐",
-            "type": 3,
-            "api": "./py/爱听.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "py_酷音乐",
             "name": "❤️🎧酷音乐",
             "type": 3,
             "api": "./py/哭我.py"
-        },
-        {
-            "key": "音乐plus",
-            "name": "❤️🎧酷音乐尊享",
-            "type": 3,
-            "api": "./py/plus.py"
         },
         {
             "key": "drpy2_可口",
@@ -766,39 +717,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/扣扣.js"
-        },
-        {
-            "key": "爱听音乐31",
-            "name": "🎧爱听音乐",
-            "type": 3,
-            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/爱听音乐.json"
-        },
-        {
-            "key": "0深港音乐网1",
-            "name": "🎧深港音乐网",
-            "type": 3,
-            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/深港音乐网.json"
-        },
-        {
-            "key": "0xmdj",
-            "name": "🎧小米DJ",
-            "type": 3,
-            "jar": "./jar/1118.jar;md5;a81c03da23212c9ffc8a699465dedc8b",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/小米dj.json"
         },
         {
             "key": "csp_xq",
