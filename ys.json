@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;2c09761b17b36a3c58291eb6436c3542",
+    "spider": "./jar/vox.jar;md5;9e05793502aeb67d8fb0f3a3297c223f",
     "notice": "❤️天扬影视❤️",
     "logo": "./logo.png",
     "lives": [
@@ -127,10 +127,6 @@
             "name": "❤️布布影视",
             "type": 3,
             "api": "./js/布布.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
             "changeable": 1
         },
         {

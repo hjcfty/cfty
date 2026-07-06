@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/vox.jar;md5;2c09761b17b36a3c58291eb6436c3542",
+    "spider": "./jar/vox.jar;md5;9e05793502aeb67d8fb0f3a3297c223f",
     "logo": "./logo.png",
     "sites": [
         {
@@ -127,6 +127,22 @@
             "timeout": 60,
             "ext": {
                 "class": "./json/guangyashare.txt"
+            }
+        },
+        {
+            "key": "123社区",
+            "name": "123社区┃[网盘]",
+            "type": 3,
+            "timeout": 60,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_Pan123Fx",
+            "ext": {
+                "cookie": "",
+                "filters": "./json/pan123fx.json",
+                "comment": ""
             }
         },
         {
