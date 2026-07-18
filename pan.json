@@ -1,10 +1,10 @@
 {
-    "spider": "./jar/vox.jar;md5;9e05793502aeb67d8fb0f3a3297c223f",
+    "spider": "./jar/vox.jar;md5;57a739d2fbd40f36b97f77dee4aa63b5",
     "logo": "./logo.png",
     "sites": [
         {
             "key": "csp_Douban",
-            "name": "❤️天扬网盘线路❤️",
+            "name": "🧡豆瓣┃[导航]",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -13,10 +13,26 @@
             "ext": "./json/douban.json"
         },
         {
-            "key": "csp_TgDouban",
-            "name": "豆瓣搜",
+            "key": "csp_Config",
+            "name": "🧡配置┃[设置]",
             "type": 3,
-            "hide": 1,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "csp_MakkaPakka",
+            "name": "🧡风向┃[导航]",
+            "type": 3,
+            "api": "csp_MakkaPakka",
+            "searchable": 0,
+            "indexs": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_TgDouban",
+            "name": "🧡豆瓣┃[盘搜]",
+            "type": 3,
             "api": "csp_TgDouban",
             "searchable": 1,
             "changeable": 1,
@@ -26,16 +42,8 @@
             }
         },
         {
-            "key": "csp_Config",
-            "name": "🧡网盘配制🧡",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0
-        },
-        {
             "key": "csp_PanShareQuark",
-            "name": "夸父┃[个人盘]",
+            "name": "🧡夸父┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareQuark",
             "searchable": 1,
@@ -47,7 +55,7 @@
         },
         {
             "key": "csp_PanShareUC",
-            "name": "优熙┃[个人盘]",
+            "name": "🧡优熙┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareUC",
             "searchable": 1,
@@ -59,7 +67,7 @@
         },
         {
             "key": "csp_PanShare115",
-            "name": "幺五┃[个人盘]",
+            "name": "🧡幺五┃[个人盘]",
             "type": 3,
             "api": "csp_PanShare115",
             "searchable": 1,
@@ -71,7 +79,7 @@
         },
         {
             "key": "csp_PanShare189",
-            "name": "风翼┃[个人盘]",
+            "name": "🧡风翼┃[个人盘]",
             "type": 3,
             "api": "csp_PanShare189",
             "searchable": 1,
@@ -83,7 +91,7 @@
         },
         {
             "key": "csp_PanShareBaidu",
-            "name": "阿度┃[个人盘]",
+            "name": "🧡阿度┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareBaidu",
             "searchable": 1,
@@ -95,7 +103,7 @@
         },
         {
             "key": "csp_PanShareAli",
-            "name": "阿里┃[个人盘]",
+            "name": "🧡阿里┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareAli",
             "searchable": 1,
@@ -107,7 +115,7 @@
         },
         {
             "key": "csp_PanShareThunder",
-            "name": "阿雷┃[个人盘]",
+            "name": "🧡阿雷┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareThunder",
             "searchable": 1,
@@ -119,7 +127,7 @@
         },
         {
             "key": "csp_PanShareGy",
-            "name": "鸭子┃[个人盘]",
+            "name": "🧡鸭子┃[个人盘]",
             "type": 3,
             "api": "csp_PanShareGy",
             "searchable": 1,
@@ -130,42 +138,20 @@
             }
         },
         {
-            "key": "123社区",
-            "name": "123社区┃[网盘]",
+            "key": "csp_PanShare123",
+            "name": "🧡123┃[个人盘]",
             "type": 3,
-            "timeout": 60,
+            "api": "csp_PanShare123",
             "searchable": 1,
-            "playerType": 2,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "csp_Pan123Fx",
-            "ext": {
-                "cookie": "",
-                "filters": "./json/pan123fx.json",
-                "comment": ""
-            }
-        },
-        {
-            "key": "csp_Panta91",
-            "name": "盘Ta┃[网盘]",
-            "type": 3,
-            "api": "csp_Panta91",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 1,
+            "changeable": 0,
             "timeout": 60,
-            "style": {
-                "type": "list"
-            },
             "ext": {
-                "sites": "https://www.91panta.cn",
-                "proxy": "noproxy",
-                "classes": "./json/panta.json"
+                "class": "./json/123share.txt"
             }
         },
         {
             "key": "csp_GuanYing",
-            "name": "观影┃[网盘]",
+            "name": "🧡观影┃[网盘]",
             "type": 3,
             "api": "csp_GuanYing",
             "searchable": 1,
@@ -180,7 +166,7 @@
         },
         {
             "key": "csp_PingLian",
-            "name": "盘链┃[网盘]",
+            "name": "🧡盘链┃[网盘]",
             "type": 3,
             "api": "csp_PingLian",
             "searchable": 1,
@@ -195,7 +181,7 @@
         },
         {
             "key": "csp_Gyzzs",
-            "name": "鸭社┃[网盘]",
+            "name": "🧡鸭社┃[网盘]",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
@@ -209,8 +195,24 @@
             }
         },
         {
+            "key": "123社区",
+            "name": "🧡社区┃[网盘]",
+            "type": 3,
+            "timeout": 60,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_Pan123Fx",
+            "ext": {
+                "cookie": "",
+                "filters": "./json/pan123fx.json",
+                "comment": ""
+            }
+        },
+        {
             "key": "csp_QiWei",
-            "name": "七味┃[网盘]",
+            "name": "🧡七味┃[网盘]",
             "type": 3,
             "timeout": 60,
             "api": "csp_QiWei",
@@ -219,7 +221,7 @@
         },
         {
             "key": "csp_SeedHub",
-            "name": "Seed┃[网盘]",
+            "name": "🧡Seed┃[网盘]",
             "type": 3,
             "api": "csp_SeedHub",
             "timeout": 60,
@@ -227,8 +229,17 @@
             "changeable": 0
         },
         {
+            "key": "csp_HDmoli",
+            "name": "🧡HDmoli┃[网盘]",
+            "type": 3,
+            "api": "csp_HDmoli",
+            "timeout": 60,
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
             "key": "csp_Xxzn",
-            "name": "指南┃[网盘]",
+            "name": "🧡指南┃[网盘]",
             "type": 3,
             "api": "csp_Xxzn",
             "filterable": 1,
@@ -237,12 +248,12 @@
             "timeout": 60,
             "ext": {
                 "filters": "./json/xxzn.json",
-                "sites": "https://4kzn.com"
+                "sites": "https://4kzn.cc"
             }
         },
         {
             "key": "csp_Wogg",
-            "name": "玩偶┃[网盘]",
+            "name": "🧡玩偶┃[网盘]",
             "type": 3,
             "api": "csp_Wogg",
             "timeout": 60,
@@ -257,7 +268,7 @@
         },
         {
             "key": "欧歌网盘",
-            "name": "欧歌┃[网盘]",
+            "name": "🧡欧歌┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -272,7 +283,7 @@
         },
         {
             "key": "蜡笔网盘",
-            "name": "蜡笔┃[网盘]",
+            "name": "🧡蜡笔┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -287,7 +298,7 @@
         },
         {
             "key": "闪电网盘",
-            "name": "闪电┃[网盘]",
+            "name": "🧡闪电┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -295,14 +306,14 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://sd.sduc.site",
+                "sites": "http://shandian.blog",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
         },
         {
             "key": "二小网盘",
-            "name": "二小┃[网盘]",
+            "name": "🧡二小┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -310,14 +321,14 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://www.erxiaozhan.top",
+                "sites": "https://www.wexwp.cc",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
         },
         {
             "key": "木偶网盘",
-            "name": "木偶┃[网盘]",
+            "name": "🧡木偶┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -325,14 +336,14 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "https://www.muou.site",
+                "sites": "https://123.666291.xyz",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
         },
         {
             "key": "至臻网盘",
-            "name": "至臻┃[网盘]",
+            "name": "🧡至臻┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -340,14 +351,14 @@
             "changeable": 1,
             "timeout": 60,
             "ext": {
-                "sites": "http://www.miqk.cc",
+                "sites": "https://zhizhen1.top",
                 "filters": "./json/wogg2.json",
                 "proxy": "noproxy"
             }
         },
         {
             "key": "多多网盘",
-            "name": "多多┃[网盘]",
+            "name": "🧡多多┃[网盘]",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -361,81 +372,58 @@
             }
         },
         {
-            "key": "csp_Kan90",
-            "name": "网盘短剧",
+            "key": "短木网盘",
+            "name": "🧡短木┃[网盘]",
             "type": 3,
-            "api": "csp_Kan90",
-            "timeout": 60,
+            "api": "csp_Wobg",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "夸克短剧",
-            "name": "夸克┃[短剧]",
-            "type": 3,
-            "api": "csp_XBPQ",
+            "filterable": 1,
+            "changeable": 1,
             "timeout": 60,
-            "ext": "./xb/夸克短剧.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "短剧夸克",
-            "name": "夸短┃[短剧]",
-            "type": 3,
-            "timeout": 60,
-            "api": "csp_XBPQ",
-            "ext": "./xb/短剧夸克.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "爱看资网",
-            "name": "爱看┃[网盘]",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/爱看资网.js"
-        },
-        {
-            "key": "cat_夸克影院",
-            "name": "夸克┃[网盘]",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/夸克影院.js"
-        },
-        {
-            "key": "cat_HDmoli",
-            "name": "HDmoli┃[网盘]",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/HDmoli.js"
-        },
-        {
-            "key": "灯泡网盘",
-            "name": "灯泡｜[网盘]",
-            "type": 3,
-            "timeout": 60,
-            "api": "./js/灯泡网盘.js",
             "ext": {
-                "tabsSet": "磁力&网盘"
+                "sites": "https://duanmu.laozhangone.top",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
             }
         },
         {
-            "key": "人人电影",
-            "name": "人人┃[网盘]",
+            "key": "虎斑网盘",
+            "name": "🧡虎斑┃[网盘]",
             "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
             "timeout": 60,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/人人电影.js"
+            "ext": {
+                "sites": "http://38.76.197.172:16969",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "快映网盘",
+            "name": "🧡快映┃[网盘]",
+            "type": 3,
+            "api": "csp_Wobg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "sites": "http://38.76.197.172:12521",
+                "filters": "./json/wogg2.json",
+                "proxy": "noproxy"
+            }
         },
         {
             "key": "csp_PanSou",
-            "name": "🖤盘搜🖤",
+            "name": "🧡盘搜┃搜索",
             "type": 3,
-            "hide": 1,
             "api": "csp_PanSou",
             "searchable": 1,
             "changeable": 1,
+            "hide": 1,
             "timeout": 60,
             "ext": {
                 "include": [
@@ -450,56 +438,56 @@
         },
         {
             "key": "夸克推送",
-            "name": "夸克┃搜索",
+            "name": "🧡夸克┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=quark"
         },
         {
             "key": "百度推送",
-            "name": "百度┃搜索",
+            "name": "🧡百度┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=baidu"
         },
         {
             "key": "UC推送",
-            "name": "优熙┃搜索",
+            "name": "🧡优熙┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=uc"
         },
         {
             "key": "天翼推送",
-            "name": "天翼┃搜索",
+            "name": "🧡天翼┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
             "key": "123推送",
-            "name": "123┃搜索",
+            "name": "🧡123┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=123"
         },
         {
             "key": "移动推送",
-            "name": "移动┃搜索",
+            "name": "🧡移动┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=mobile"
         },
         {
             "key": "迅雷",
-            "name": "迅雷┃搜索",
+            "name": "🧡迅雷┃搜索",
             "type": 4,
             "hide": 1,
             "api": "https://so.yinpai.xyz/api.php?type=xunlei"
         },
         {
             "key": "py_盘友圈",
-            "name": "盘友┃搜索",
+            "name": "🧡盘友┃搜索",
             "api": "./py/盘友圈.py",
             "filterable": 1,
             "timeout": 60,
@@ -509,15 +497,8 @@
             "type": 3
         },
         {
-            "key": "短裤",
-            "name": "短剧┃搜索",
-            "type": 4,
-            "hide": 1,
-            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
-        },
-        {
             "key": "push_agent",
-            "name": "链接┃推送",
+            "name": "🧡链接┃推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -640,7 +621,7 @@
         "4gtv.tv",
         "eu.org",
         "15.204.105.50",
-        "7707bo.trustdeveloppment.com",
+        "7707bo.trustdevelppment.com",
         "1tv41.icu",
         "lb59.xxip9.top",
         "php.946985.filegear-sg.me",
@@ -660,53 +641,7 @@
         "tvpnlogopeu.samsungcloud.tv",
         "schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com"
     ],
-    "rules": [
-        {
-            "name": "火山嗅探",
-            "hosts": [
-                "huoshan.com"
-            ],
-            "regex": [
-                "item_id="
-            ]
-        },
-        {
-            "name": "抖音嗅探",
-            "hosts": [
-                "douyin.com"
-            ],
-            "regex": [
-                "is_play_url="
-            ]
-        },
-        {
-            "name": "農民嗅探",
-            "hosts": [
-                "toutiaovod.com"
-            ],
-            "regex": [
-                "video/tos/cn"
-            ]
-        },
-        {
-            "name": "七新嗅探",
-            "hosts": [
-                "api.52wyb.com"
-            ],
-            "regex": [
-                "m3u8?pt=m3u8"
-            ]
-        },
-        {
-            "name": "毛驢點擊",
-            "hosts": [
-                "www.maolvys.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        }
-    ],
+    "rules": [],
     "headers": [
         {
             "host": "img\\d+.doubanio.com",
@@ -770,77 +705,7 @@
         }
     ],
     "hosts": [],
-    "parses": [
-        {
-            "name": "测试解析",
-            "type": 1,
-            "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
-        },
-        {
-            "name": "手动解析①",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "手动解析②",
-            "type": 0,
-            "url": "https://jx.nnxv.cn/tv.php?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "手动解析③",
-            "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "手动解析④",
-            "type": 0,
-            "url": "https://www.ckplayer.vip/jiexi/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        },
-        {
-            "name": "手动解析⑤",
-            "type": 0,
-            "url": "https://okjx.cc/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
-        }
-    ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu"
-    ],
-    "ads": [
-        "static-mozai.4gtv.tv",
-        "s3t3d2y8.afcdn.net"
-    ]
+    "parses": [],
+    "flags": [],
+    "ads": []
 }
